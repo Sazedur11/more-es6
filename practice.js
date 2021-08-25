@@ -33,12 +33,17 @@ const addName = (name1, name2) => `${name1} ${name2}`
 const devide = x => x / 5;
 // console.log(devide(70))
 
+// 2 ta paramiture er sathe 2 jog kore sei jogfol er gun
+const add = (num1, num2) => (num1 + 2) * (num2 + 2)
+
+// console.log(add(15, 5))
+
 // 3 paramiture owala arrow function
 const res = (x, y, z) => x * y * z;
 // console.log(res(5, 2, 3))
 
 
-// spread operator => ata array copy korte us ekora hoi
+// spread operator (...) => ata array copy korte us ekora hoi
 
 const vashaShahid = ['Salam', 'Rafiq', 'Borkat', 'Shafiq', 'Jabbar'];
 console.log(...vashaShahid)
