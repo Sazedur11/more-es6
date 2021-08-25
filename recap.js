@@ -24,3 +24,4 @@ console.log(square(7))
 // 5.1 arrow function
 const add = (num1, num2) => num1 + num2;
 console.log(add(15, 5))
+
