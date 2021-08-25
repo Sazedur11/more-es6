@@ -33,7 +33,14 @@ const addName = (name1, name2) => `${name1} ${name2}`
 const devide = x => x / 5;
 // console.log(devide(70))
 
-// 2 ta paramiture er sathe 2 jog kore sei jogfol er gun
+/* 2 ta paramiture er sathe 2 jog kore sei jogfol er gun */
+
+// const add = (num1, num2) => {
+//     const newNum = num1 + 2;
+//     const newNum2 = num2 + 2;
+//     const res = newNum * newNum2;
+//     return res;
+// }
 const add = (num1, num2) => (num1 + 2) * (num2 + 2)
 
 // console.log(add(15, 5))
